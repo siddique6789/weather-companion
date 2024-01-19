@@ -526,8 +526,17 @@ div#txt {
   }
   .date-time {
     width: 100%;
-    padding: 0;
+    padding: 20px;
   }
+
+  .current-date {
+    width: 65%;
+  }
+
+  .current-time {
+    width: 45%;
+  }
+
   .dmy {
     padding: 0;
     margin-bottom: 35px;
@@ -541,16 +550,20 @@ div#txt {
     font-size: 22px;
   }
   .temperature {
-    text-align: center;
-    width: 100%;
+    width: 80%;
   }
   .copyright {
     padding: 20px;
   }
   .temperature p {
-    font-size: 60px;
+    font-size: 55px;
     padding-bottom: 15px;
   }
+
+  .temperature .celsius {
+    font-size: 45px;
+  }
+
   .forecast-icon img {
     width: 65px;
   }
@@ -568,6 +581,7 @@ div#txt {
   .mb-icon {
     top: 20% !important;
     display: block !important;
+    margin-top: 100px;
   }
   .forecast-icon,
   .today-weather h3 {
@@ -596,7 +610,7 @@ div#txt {
     font-size: 18px;
   }
   .temperature p {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
 }
 
@@ -663,9 +677,9 @@ div#txt {
 .footer-info {
   color: white;
 }
-.footer-info a {
+.footer-info h2 {
   color: floralwhite;
-  font-weight: bold;
+  padding-bottom: 20px;
 }
 .hh_button {
   display: inline-block;
